@@ -86,8 +86,5 @@ async def en_to_wingding(inter: Interaction, text: str):
     # 변환된 윙딩어 텍스트 출력
     await inter.followup.send(f"출력 : {output}")
 
-
-
-
 if __name__ == "__main__":
     CLIENT.run(TOKEN)
